@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60AE0B93259EE85800F82666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE0B92259EE85800F82666 /* AppDelegate.swift */; };
+		60AE0B95259EE85800F82666 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE0B94259EE85800F82666 /* SceneDelegate.swift */; };
+		60AE0B97259EE85800F82666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE0B96259EE85800F82666 /* ViewController.swift */; };
+		60AE0B9A259EE85800F82666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AE0B98259EE85800F82666 /* Main.storyboard */; };
+		60AE0B9C259EE85E00F82666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60AE0B9B259EE85E00F82666 /* Assets.xcassets */; };
+		60AE0B9F259EE85E00F82666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AE0B9D259EE85E00F82666 /* LaunchScreen.storyboard */; };
+		60AE0BAA259EE85F00F82666 /* StarvOauth2iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE0BA9259EE85F00F82666 /* StarvOauth2iOSTests.swift */; };
+		60AE0BB5259EE85F00F82666 /* StarvOauth2iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE0BB4259EE85F00F82666 /* StarvOauth2iOSUITests.swift */; };
+		60AE0BC6259EE92100F82666 /* LinkAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE0BC5259EE92100F82666 /* LinkAppsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60AE0BA6259EE85F00F82666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60AE0B87259EE85800F82666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60AE0B8E259EE85800F82666;
+			remoteInfo = StarvOauth2iOS;
+		};
+		60AE0BB1259EE85F00F82666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60AE0B87259EE85800F82666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60AE0B8E259EE85800F82666;
+			remoteInfo = StarvOauth2iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60AE0B8F259EE85800F82666 /* StarvOauth2iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarvOauth2iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AE0B92259EE85800F82666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60AE0B94259EE85800F82666 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60AE0B96259EE85800F82666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60AE0B99259EE85800F82666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60AE0B9B259EE85E00F82666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60AE0B9E259EE85E00F82666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60AE0BA0259EE85E00F82666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AE0BA5259EE85F00F82666 /* StarvOauth2iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarvOauth2iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AE0BA9259EE85F00F82666 /* StarvOauth2iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarvOauth2iOSTests.swift; sourceTree = "<group>"; };
+		60AE0BAB259EE85F00F82666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AE0BB0259EE85F00F82666 /* StarvOauth2iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarvOauth2iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AE0BB4259EE85F00F82666 /* StarvOauth2iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarvOauth2iOSUITests.swift; sourceTree = "<group>"; };
+		60AE0BB6259EE85F00F82666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AE0BC5259EE92100F82666 /* LinkAppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkAppsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60AE0B8C259EE85800F82666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60AE0BA2259EE85F00F82666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60AE0BAD259EE85F00F82666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60AE0B86259EE85800F82666 = {
+			isa = PBXGroup;
+			children = (
+				60AE0B91259EE85800F82666 /* StarvOauth2iOS */,
+				60AE0BA8259EE85F00F82666 /* StarvOauth2iOSTests */,
+				60AE0BB3259EE85F00F82666 /* StarvOauth2iOSUITests */,
+				60AE0B90259EE85800F82666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60AE0B90259EE85800F82666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60AE0B8F259EE85800F82666 /* StarvOauth2iOS.app */,
+				60AE0BA5259EE85F00F82666 /* StarvOauth2iOSTests.xctest */,
+				60AE0BB0259EE85F00F82666 /* StarvOauth2iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60AE0B91259EE85800F82666 /* StarvOauth2iOS */ = {
+			isa = PBXGroup;
+			children = (
+				60AE0B92259EE85800F82666 /* AppDelegate.swift */,
+				60AE0B94259EE85800F82666 /* SceneDelegate.swift */,
+				60AE0B96259EE85800F82666 /* ViewController.swift */,
+				60AE0BC5259EE92100F82666 /* LinkAppsViewController.swift */,
+				60AE0B98259EE85800F82666 /* Main.storyboard */,
+				60AE0B9B259EE85E00F82666 /* Assets.xcassets */,
+				60AE0B9D259EE85E00F82666 /* LaunchScreen.storyboard */,
+				60AE0BA0259EE85E00F82666 /* Info.plist */,
+			);
+			path = StarvOauth2iOS;
+			sourceTree = "<group>";
+		};
+		60AE0BA8259EE85F00F82666 /* StarvOauth2iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				60AE0BA9259EE85F00F82666 /* StarvOauth2iOSTests.swift */,
+				60AE0BAB259EE85F00F82666 /* Info.plist */,
+			);
+			path = StarvOauth2iOSTests;
+			sourceTree = "<group>";
+		};
+		60AE0BB3259EE85F00F82666 /* StarvOauth2iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60AE0BB4259EE85F00F82666 /* StarvOauth2iOSUITests.swift */,
+				60AE0BB6259EE85F00F82666 /* Info.plist */,
+			);
+			path = StarvOauth2iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60AE0B8E259EE85800F82666 /* StarvOauth2iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60AE0BB9259EE85F00F82666 /* Build configuration list for PBXNativeTarget "StarvOauth2iOS" */;
+			buildPhases = (
+				60AE0B8B259EE85800F82666 /* Sources */,
+				60AE0B8C259EE85800F82666 /* Frameworks */,
+				60AE0B8D259EE85800F82666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarvOauth2iOS;
+			productName = StarvOauth2iOS;
+			productReference = 60AE0B8F259EE85800F82666 /* StarvOauth2iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60AE0BA4259EE85F00F82666 /* StarvOauth2iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60AE0BBC259EE85F00F82666 /* Build configuration list for PBXNativeTarget "StarvOauth2iOSTests" */;
+			buildPhases = (
+				60AE0BA1259EE85F00F82666 /* Sources */,
+				60AE0BA2259EE85F00F82666 /* Frameworks */,
+				60AE0BA3259EE85F00F82666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60AE0BA7259EE85F00F82666 /* PBXTargetDependency */,
+			);
+			name = StarvOauth2iOSTests;
+			productName = StarvOauth2iOSTests;
+			productReference = 60AE0BA5259EE85F00F82666 /* StarvOauth2iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60AE0BAF259EE85F00F82666 /* StarvOauth2iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60AE0BBF259EE85F00F82666 /* Build configuration list for PBXNativeTarget "StarvOauth2iOSUITests" */;
+			buildPhases = (
+				60AE0BAC259EE85F00F82666 /* Sources */,
+				60AE0BAD259EE85F00F82666 /* Frameworks */,
+				60AE0BAE259EE85F00F82666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60AE0BB2259EE85F00F82666 /* PBXTargetDependency */,
+			);
+			name = StarvOauth2iOSUITests;
+			productName = StarvOauth2iOSUITests;
+			productReference = 60AE0BB0259EE85F00F82666 /* StarvOauth2iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60AE0B87259EE85800F82666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					60AE0B8E259EE85800F82666 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					60AE0BA4259EE85F00F82666 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 60AE0B8E259EE85800F82666;
+					};
+					60AE0BAF259EE85F00F82666 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 60AE0B8E259EE85800F82666;
+					};
+				};
+			};
+			buildConfigurationList = 60AE0B8A259EE85800F82666 /* Build configuration list for PBXProject "StarvOauth2iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60AE0B86259EE85800F82666;
+			productRefGroup = 60AE0B90259EE85800F82666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60AE0B8E259EE85800F82666 /* StarvOauth2iOS */,
+				60AE0BA4259EE85F00F82666 /* StarvOauth2iOSTests */,
+				60AE0BAF259EE85F00F82666 /* StarvOauth2iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60AE0B8D259EE85800F82666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AE0B9F259EE85E00F82666 /* LaunchScreen.storyboard in Resources */,
+				60AE0B9C259EE85E00F82666 /* Assets.xcassets in Resources */,
+				60AE0B9A259EE85800F82666 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60AE0BA3259EE85F00F82666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60AE0BAE259EE85F00F82666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60AE0B8B259EE85800F82666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AE0BC6259EE92100F82666 /* LinkAppsViewController.swift in Sources */,
+				60AE0B97259EE85800F82666 /* ViewController.swift in Sources */,
+				60AE0B93259EE85800F82666 /* AppDelegate.swift in Sources */,
+				60AE0B95259EE85800F82666 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60AE0BA1259EE85F00F82666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AE0BAA259EE85F00F82666 /* StarvOauth2iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60AE0BAC259EE85F00F82666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AE0BB5259EE85F00F82666 /* StarvOauth2iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60AE0BA7259EE85F00F82666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60AE0B8E259EE85800F82666 /* StarvOauth2iOS */;
+			targetProxy = 60AE0BA6259EE85F00F82666 /* PBXContainerItemProxy */;
+		};
+		60AE0BB2259EE85F00F82666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60AE0B8E259EE85800F82666 /* StarvOauth2iOS */;
+			targetProxy = 60AE0BB1259EE85F00F82666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60AE0B98259EE85800F82666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60AE0B99259EE85800F82666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60AE0B9D259EE85E00F82666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60AE0B9E259EE85E00F82666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60AE0BB7259EE85F00F82666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60AE0BB8259EE85F00F82666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60AE0BBA259EE85F00F82666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7KR8D5MT4;
+				INFOPLIST_FILE = StarvOauth2iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.starva.StarvOauth2iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60AE0BBB259EE85F00F82666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7KR8D5MT4;
+				INFOPLIST_FILE = StarvOauth2iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.starva.StarvOauth2iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60AE0BBD259EE85F00F82666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarvOauth2iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.starva.StarvOauth2iOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarvOauth2iOS.app/StarvOauth2iOS";
+			};
+			name = Debug;
+		};
+		60AE0BBE259EE85F00F82666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarvOauth2iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.starva.StarvOauth2iOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarvOauth2iOS.app/StarvOauth2iOS";
+			};
+			name = Release;
+		};
+		60AE0BC0259EE85F00F82666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarvOauth2iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.starva.StarvOauth2iOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarvOauth2iOS;
+			};
+			name = Debug;
+		};
+		60AE0BC1259EE85F00F82666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StarvOauth2iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.starva.StarvOauth2iOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarvOauth2iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60AE0B8A259EE85800F82666 /* Build configuration list for PBXProject "StarvOauth2iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60AE0BB7259EE85F00F82666 /* Debug */,
+				60AE0BB8259EE85F00F82666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60AE0BB9259EE85F00F82666 /* Build configuration list for PBXNativeTarget "StarvOauth2iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60AE0BBA259EE85F00F82666 /* Debug */,
+				60AE0BBB259EE85F00F82666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60AE0BBC259EE85F00F82666 /* Build configuration list for PBXNativeTarget "StarvOauth2iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60AE0BBD259EE85F00F82666 /* Debug */,
+				60AE0BBE259EE85F00F82666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60AE0BBF259EE85F00F82666 /* Build configuration list for PBXNativeTarget "StarvOauth2iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60AE0BC0259EE85F00F82666 /* Debug */,
+				60AE0BC1259EE85F00F82666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60AE0B87259EE85800F82666 /* Project object */;
+}
